@@ -5,13 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MaterialUI } from './Component/MaterialUI';
 import { ToDo_Material_Ui } from './Component/ToDo_Material_Ui';
+import { Bootstrap } from './Component/Bootstrap';
+import { Accordian } from './Component/accordian/Accordian';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <MaterialUI/> */}
-    <ToDo_Material_Ui/>
+    {/* <ToDo_Material_Ui/> */}
+    {/* <Bootstrap/> */}
+    <Accordian/>
   </React.StrictMode>
 );
 
