@@ -7,6 +7,7 @@ import { MaterialUI } from './Component/MaterialUI';
 import { ToDo_Material_Ui } from './Component/ToDo_Material_Ui';
 import { Bootstrap } from './Component/Bootstrap';
 import { Accordian } from './Component/accordian/Accordian';
+import { R_Bootstrap } from './Component/R_Bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/* <MaterialUI/> */}
     {/* <ToDo_Material_Ui/> */}
     {/* <Bootstrap/> */}
-    <Accordian/>
+    {/* <Accordian/> */}
+    <R_Bootstrap/>
   </React.StrictMode>
 );
 
